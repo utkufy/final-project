@@ -4,12 +4,16 @@
   "main": "index.js",
   "scripts": {
     "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
     "web": "expo start --web"
   },
   "dependencies": {
     "expo": "~53.0.9",
+    "expo-notifications": "^0.31.2",
+    "expo-sensors": "^14.1.4",
+    "expo-contacts": "^14.2.4",
+    "expo-linking": "^7.1.5",
     "expo-location": "^18.1.5",
     "expo-status-bar": "~2.2.3",
     "react": "19.0.0",
