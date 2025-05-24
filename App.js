@@ -1,10 +1,20 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import Communication from './components/Communication';
 
 export default function App() {
   return (
-    <View >
-      <Text>Hello world</Text>
+    <View style={styles.container}>
+      <Communication />
+      <StatusBar style="auto" />
     </View>
   );
 }
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+    marginTop: 30,
+  },
+});
