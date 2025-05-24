@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-import Map from './components/Map';
+import Communication from './components/Communication';
 export default function App() {
   return (
     <View style={styles.container}>
