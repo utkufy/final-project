@@ -203,20 +203,6 @@ export function configureNotifications() {
     }),
   });
 }
-```
-- Bildirimlerin nasıl gösterileceğini ayarlar
-- Banner, ses ve diğer özellikleri yapılandırır
-
-
-
-- `@react-navigation/bottom-tabs`: Alt navigasyon menüsü için
-- `@react-navigation/native`: Uygulama navigasyonu için
-- `expo-contacts`: Rehber yönetimi için
-- `expo-location`: Konum servisleri için
-- `expo-notifications`: Bildirim yönetimi için
-- `expo-sensors`: Cihaz sensörleri için
-- `react-native-maps`: Harita işlevselliği için
-- `@expo/vector-icons`: Navigasyon ikonları için
 
 ## Başlangıç
 
